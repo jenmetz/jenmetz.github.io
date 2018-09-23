@@ -1,0 +1,207 @@
+
+/* typographie*/
+
+.link {  
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 11px;
+font-weight: normal; 
+line-height: 15px; 
+color: #ff0000;
+text-decoration: none;
+}
+A.link:hover {
+text-decoration: underline;
+}
+
+.text {  
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 12px;
+font-weight: normal; 
+line-height: 17px; 
+color: #000000;
+text-decoration: none;
+}
+
+.vraag {  
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 55px;
+line-height: 60px; 
+font-weight:bold;
+text-decoration: none;
+color: 000;
+}
+A.vraag:hover {
+color: 000;
+text-decoration: none;
+}
+
+
+.vraag2 {  
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 24px;
+line-height: 30px; 
+font-weight:bold;
+text-decoration: none;
+color: f00;
+}
+
+.subtitle {  
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 18px;
+line-height: 22px; 
+font-weight:normal;
+text-decoration: none;
+color: f00;
+}
+
+.subtitle2 {  
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 12px;
+line-height: 15px; 
+font-weight:bold;
+text-decoration: none;
+color: 000;
+}
+
+.names {  
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 18px;
+line-height: 22px; 
+font-weight:bold;
+text-decoration: none;
+color: 000;
+}
+A.names:hover{
+color:f00;
+}
+
+
+.yesno {
+font-family: verdana, Trebuchet MS, Arial, Helvetica, sans-serif; 
+font-size: 55px;
+line-height: 60px; 
+font-weight:bold;
+text-decoration: none;
+color: 000;
+}
+A.yesno:hover {
+color: 000;
+text-decoration: none;
+}
+
+
+
+.wit{
+color: fff;
+}
+A.wit:hover{
+color:000;
+}
+
+.red {
+color: f00;
+text-decoration: none;
+}
+
+.subgrijs {  
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 14px;
+line-height: 18px; 
+font-weight:normal;
+text-decoration: none;
+color: 999;
+}
+
+.pulldown {  
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 20px;
+line-height: 30px; 
+font-weight:bold;
+text-decoration: none;
+background-color:ccc;
+color: fff;
+}
+
+.headergrijs {  
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 18px;
+line-height: 20px; 
+font-weight:normal;
+text-decoration: none;
+color: bbb;
+}
+A.headergrijs:hover {
+color: 999;
+}
+
+.header {  
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 22px;
+line-height: 28px; 
+font-weight:bold;
+text-decoration: none;
+color: 000;
+}
+A.header:hover {
+color: f00;
+}
+
+.header2 {  
+font-family:Arial, Helvetica, sans-serif; 
+font-size: 30px;
+line-height:4px;
+font-weight:bold;
+text-decoration: none;
+color: 000;
+}
+
+
+/* backgrounds
+.micro {
+background-image: url(ima/microphones.jpg);
+background-repeat: no-repeat;
+background-position: 50% 50%;
+}*/
+
+/* layouts*/
+body {
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+#bg {
+position: absolute;
+top: 10%;
+left: 3%;
+}
+
+#tekst {
+position: absolute;
+top: 9%;
+left: 62%;
+}
+
+#yn {
+position: absolute;
+top: 270px;
+left: 540px;
+}
+
+#totaal {
+margin-right: auto;
+margin-left: auto; 
+}
+
+#content {
+	position: relative;
+	top: 100px;
+	margin-right: auto;
+	margin-left: auto; 	/* opera does not like 'margin:20px auto' */
+	}
+	
+#content2 {
+	position: absolute;
+	top: 100px;
+	left: 1%; 	/* opera does not like 'margin:20px auto' */
+	
+	}
